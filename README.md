@@ -1,4 +1,5 @@
 # AccountViewer
+<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
@@ -25,3 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+small angular app to view a grid of accounts (mocked data) with sorting capabilities
+
+Steps to run:
+1. If you don't have the angular CLI then please use your terminal to run this script: "npm install -g @angular/cli"
+
+1. Under the root of the application in your terminal run "npm install" to install the latest package dependencies
+
+2. Next run "ng serve" to run the application on your localhost machine
+>>>>>>> 50f6f7336f71e6dfae7a1c3fbd2d92bda21ac134
