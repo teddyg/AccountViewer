@@ -1,0 +1,6 @@
+<div>
+    <app-account-grid 
+        [accounts]="accounts$ | async"
+        (reloadAccounts)="handleReloadAccounts($event)">
+    </app-account-grid>    
+</div>

@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+span {
+    font-family: open sans;
+    font-size: 0.9rem;
+}
+
+body {
+    background-color: rgb(27, 133, 168);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.display-none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.blue-font {
+    color:rgb(27, 133, 168);
+}
+
+.green-font {
+    color: green;
+}
+
+.red-font {
+    color: red;
+}
+
+.gray-font {
+    color: gray;
+}
+
+.small-font {
+    font-size: 0.8rem;
+}
+
+.w-50 {
+    width:50%;
+}
+
+.w-100 {
+    width:100%;
+}
+

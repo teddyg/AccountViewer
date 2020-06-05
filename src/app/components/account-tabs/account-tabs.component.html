@@ -1,0 +1,21 @@
+<div class="tab-container">
+    <div class="tab1 column-display-reverse" [ngClass]="{'tab-active': tabIndex === 0}" (click)="toggleTab(0)">
+        <div class="flex row-display">
+            <span class="tab1-text">Account</span>
+            <div [ngClass]="{'display-none': tabIndex === 1, 'inherit': tabIndex === 0 }">
+                    <i [ngClass]="{'arrow-up-1': accountNumberAscending === true, 'arrow-down-1': accountNumberAscending === false }"
+                       (click)="loadAccountNumberOrderClick()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="tab2 column-display" [ngClass]="{'tab-active': tabIndex === 1}" (click)="toggleTab(1)">
+        <div class="flex row-reverse-display">
+            <span class="tab2-text">Available Cash</span>
+            <div [ngClass]="{'display-none': tabIndex === 0, 'inherit': tabIndex === 1 }">
+                    <i [ngClass]="{'arrow-up-2': cashAvailableAscending === true, 'arrow-down-2': cashAvailableAscending === false }"
+                       (click)="loadCashAvailableOrderClick()"></i>
+            </div>                
+        </div>
+        <span class="tab2-text gray-font">Today's Change</span>
+    </div>
+</div>

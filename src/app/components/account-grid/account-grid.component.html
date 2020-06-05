@@ -1,0 +1,21 @@
+<div>
+    <app-account-tabs
+        [accounts]="accounts"
+        (reloadAccounts)="handleReloadAccounts($event)">
+    </app-account-tabs>
+    <ul>
+        <li *ngFor="let account of accounts; index as i">
+            <ng-container *ngIf="i < accountsToShow">
+                <app-account-item
+                    [account]="account">                
+                </app-account-item>
+            </ng-container>
+        </li>
+    </ul>
+    <div 
+        (click)="toggleLoadMore()" 
+        class="button-container blue-font small-font"
+        [ngClass]="{'display-none': showLoadButton === false}">
+        <span>Load More</span>
+    </div>
+</div>

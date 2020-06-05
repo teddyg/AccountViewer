@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    background-color: white;
+    border-bottom: solid 1px lightgrey;
+    padding: 0 0.5em;
+}
+
+.column {
+    flex-direction: column; 
+}
+
+.left-align {
+    justify-content: start;
+    align-items: center;
+}
+
+.right-align {
+    text-align: end;
+    padding-right: 0.5em;
+}
+
+.center-align {
+    text-align: center;
+}
+

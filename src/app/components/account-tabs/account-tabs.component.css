@@ -1,0 +1,105 @@
+.inherit {
+    display: inherit;
+}
+
+/***********
+Tab styles
+************/
+
+.tab-container {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+.tab1 {
+    width:50%;
+    padding-left: 0.5em;
+    display: flex;
+}
+
+.tab2 {
+    width:50%;
+    padding-right: 0.5em;
+    display: flex;
+}
+
+.tab-active {
+    background-color: rgb(232, 232, 232);
+}
+
+.column-display {
+    flex-direction: column;
+}
+
+.column-display-reverse {
+    flex-direction: column-reverse;
+}
+
+.row-display {
+    flex-direction: row;
+}
+
+.row-reverse-display {
+    flex-direction: row-reverse;
+}
+
+.tab1-text {
+    text-align: start;
+}
+
+.tab2-text {
+    text-align: end;
+}
+
+/***********
+Arrow styles
+************/
+
+.arrow-up-1 {
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-bottom: 5px solid #569cbd;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.arrow-down-1 {
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-top: 5px solid #569cbd;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.arrow-up-2 {
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-bottom: 5px solid #569cbd;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.arrow-down-2 {
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-top: 5px solid #569cbd;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.arrow-up-1:hover, .arrow-up-2:hover {
+    cursor: pointer;
+}
+
+.arrow-down-1:hover, .arrow-down-2:hover {
+    cursor: pointer;
+}
