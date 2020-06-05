@@ -1,4 +1,5 @@
 # AccountViewer
+Run `npm install` before starting the app to download the package dependencies
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
